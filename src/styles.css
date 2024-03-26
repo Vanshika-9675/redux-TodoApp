@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);   
+  }
+  
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="text"]{
+  flex: 1;
+  padding: 8px;
+  font-size: large;
+  width: 80%;
+  margin-bottom: 18px;
+  background-color: rgb(202, 234, 231);
+  border: none;
+  outline: none;
+}
+
+button {
+  background-color: rgb(217, 223, 222);
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.update{
+  margin-left: 10px;
+  background-color: #ffc107;
+}
+
+.update:hover{
+  background-color: #dba80d;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.delete{
+  background-color: #dc3545;
+}
+
+.delete:hover{
+  background-color: #b42f3f;
+}
+
+.li{
+  background-color: rgb(154, 209, 196);
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+ul{
+  display: flex; 
+  width: 80%;
+}
+.img{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: url('./assets/checklist.webp') no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.add{
+  text-align: center;
+  position: absolute;
+  bottom: 300px;
+  right: 320px;
+}
+
+.add button{
+  background-color: rgb(59, 150, 123);
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.add button:hover{
+  background-color: rgb(46, 122, 99);
+}
+
+.todo-list{
+  color: white;
+}
+
+.todos{
+   margin-left: 200px;
+}
+
+.addMore{
+  background-color: rgb(219, 213, 213);
+}
